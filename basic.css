@@ -1,0 +1,84 @@
+
+h2 {
+font-family: Arial;
+font-size: 25pt;
+text-decoration: underline;
+color: white;
+}
+html { 
+    background: url(download1.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+	color: yellow;
+	margin: 0;
+	font-family: Arial, 'Work Sans', sans-serif;
+	font-size: 18pt;
+	font-weight: 400;
+}
+h1 {
+text-align: center;
+font-family: Arial;
+font-size: 28pt;
+text-decoration: underline;
+color: white;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: blue;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 25px;
+  position: relative;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  width: 0%;
+}
+img {
+    float: left;
+}
+.logo {
+text-align: justify;
+}
+.nav {
+font-size: 18pt;
+}
+.sources {
+color: white;
+font-size: 20pt;
+}
